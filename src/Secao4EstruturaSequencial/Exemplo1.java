@@ -1,3 +1,4 @@
+package Secao4EstruturaSequencial;
 
 public class Exemplo1
 {
