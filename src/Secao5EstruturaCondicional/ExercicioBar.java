@@ -41,24 +41,24 @@ public class ExercicioBar
             {
 
                 consumo = quantidadeCerveja * cerveja + quantidadeRefrigerante * refrigerante + quantidadeespetinho * espetinho;
-                System.out.printf( "RELATÓRIO: " );
+                System.out.println( "RELATÓRIO: " );
 
-                System.out.printf( "Consumo = ", " R$ ", consumo );
+                System.out.print( "Consumo = " + " R$ " + consumo );
 
                 if( consumo >= 30.00 ) {
                 } else {
 
-                    System.out.printf( "Insento de Couvert" );
+                    System.out.println( "Insento de Couvert" );
 
-                    System.out.printf( "Couvert = ", " R$ ", couvert );
+                    System.out.println( "Couvert:  R$ " + couvert );
                 }
 
             }
 
-            System.out.printf( "Ingresso = ", " R$ ", ingresso );
+            System.out.println( "Ingresso = " + " R$ " + ingresso );
 
             total = consumo + couvert + ingresso;
-            System.out.printf( "Valor a pagar = ", " R$ ", total );
+            System.out.println( "Valor a pagar = " + " R$ " + total );
             sc.close();
         }
     }
